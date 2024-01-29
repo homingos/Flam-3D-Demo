@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 8cdd39aef3d3fa143974e935052251aa
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Arms
+    second: {fileID: 2100000, guid: c8544d1221a478e498ae1ed552b6747f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Ears
+    second: {fileID: 2100000, guid: b4fdc1869285de040b34be7e12fe24ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_EyeSocket
+    second: {fileID: 2100000, guid: 3934b4b6fcf9f21408740099e68a752c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Face
+    second: {fileID: 2100000, guid: cd373577f8f6dc44c92b605e9ceff8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Fingernails
+    second: {fileID: 2100000, guid: 4560f359090f60746bfa2e76425dc0c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Irises
+    second: {fileID: 2100000, guid: 4ebd38d1ebb29704a8a1ef4861105971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Legs
+    second: {fileID: 2100000, guid: 5f7563e7b168bdf48829ffe68c761d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Lips
+    second: {fileID: 2100000, guid: 98540e7d0b0da594694365c1bc634908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Metallic
+    second: {fileID: 2100000, guid: 55b1e0bd8f6a7ea47982d5027b47fd33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Metallic1
+    second: {fileID: 2100000, guid: 7e38fc98569c2ac46ad5e4299b5cc237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Metallic_2
+    second: {fileID: 2100000, guid: 1d0755c3d46e3234bbd5704b189ceda5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Mouth
+    second: {fileID: 2100000, guid: eeb20eab6be3e4342949caa9b10dfa32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_New_Material.001
+    second: {fileID: 2100000, guid: fcddba237c712e3439bd66f0e9a78f4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_New_Material_
+    second: {fileID: 2100000, guid: 3c920d288b57b0c4eab5c4061489d27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Pupils
+    second: {fileID: 2100000, guid: 0881c62dfdbd6da45a166ae9b56ee7d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Sclera
+    second: {fileID: 2100000, guid: 4f58c7cd6526cb4449884a726874737b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Teeth
+    second: {fileID: 2100000, guid: fa05733e46ade5c44ab1be52360fd6c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Toenails
+    second: {fileID: 2100000, guid: 8aecca5282c6ac242bacb5755630a3cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_FIG_Torso
+    second: {fileID: 2100000, guid: dd372b00f62e8b64f8855c6045403f86, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ArmsD
+    second: {fileID: 2800000, guid: 5415d6575dc9a3c4a912e284b978c893, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2800000, guid: 2faa533a8cb54f246888b3ac42477b78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HeadD
+    second: {fileID: 2800000, guid: db8d38a5d082fc241b94d931f42cb011, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LegsD
+    second: {fileID: 2800000, guid: 566b907d859b5dc4ba961468e0c3afa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MouthD
+    second: {fileID: 2800000, guid: 1d2fbbcb5c2681d4799346d54cc19e14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_0006_0
+    second: {fileID: 2800000, guid: 529b4297567ca6642913fac53f13227a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_0012_0
+    second: {fileID: 2800000, guid: cdccabec34220d84c8f20956260b97ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_0014_0
+    second: {fileID: 2800000, guid: cdcb5682dbe5eb94cbd07ba7d6d84ef6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_0017_0aaaaaaaaaaa
+    second: {fileID: 2800000, guid: 958ed30ec45df07478e94390bb206b7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TorsoD
+    second: {fileID: 2800000, guid: 40c51501601aac84099540cc66f37c19, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

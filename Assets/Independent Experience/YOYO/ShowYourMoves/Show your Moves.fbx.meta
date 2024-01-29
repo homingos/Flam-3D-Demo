@@ -1,0 +1,2100 @@
+fileFormatVersion: 2
+guid: 5aaae6439dec2d246b8bc7d4f82dfb0c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -1498010087492872569
+    second: CINEMA_4D_Main
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Eye
+    second: {fileID: 2100000, guid: f28b369386c207a469c9d38fef5653c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Facewear.1
+    second: {fileID: 2100000, guid: 00d8c4150cbde6245bb3a98bfb324c6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Hair.1
+    second: {fileID: 2100000, guid: 1242d78b92f728b42be51da5d959225d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Bottom.1
+    second: {fileID: 2100000, guid: 3c22c8f568c484d4db1d14173705ca11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Footwear.1
+    second: {fileID: 2100000, guid: 53a3b3acac604e543aa33b557ea12c36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Top.1
+    second: {fileID: 2100000, guid: 31a28686461fe2145885fb75e99cfbc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Skin.1
+    second: {fileID: 2100000, guid: fb5c288e8b09bce4196670d9cc67bbd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Teeth
+    second: {fileID: 2100000, guid: 3e4de32cdbfee4442840b436cb2a5806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Teeth.1
+    second: {fileID: 2100000, guid: 4f5bb2670b156474b9f9be0600634d58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadrado
+    second: {fileID: 2100000, guid: a29000e4ede1bb14bbf96371a5612b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emision
+    second: {fileID: 2100000, guid: 7ac5af494f1aac3408c13ea1560b5340, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_0
+    second: {fileID: 2800000, guid: 6f60aadbe9c21854e98b0a4b9094195e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_1
+    second: {fileID: 2800000, guid: 5b9a067e954cdec4598c5a8a7b2411f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_10
+    second: {fileID: 2800000, guid: befb1ace0b1df684b8c586c315f39c1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_11
+    second: {fileID: 2800000, guid: 6dc9eee9754245b44879a0809d4493bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_13
+    second: {fileID: 2800000, guid: 7821775fcab1457498d8ce8840829ee9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_14
+    second: {fileID: 2800000, guid: 22a45802fc15ae441b50b3f08c86350b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_15
+    second: {fileID: 2800000, guid: d7dabaaf66d39a94b8bba86ac5b9f72e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_16
+    second: {fileID: 2800000, guid: 249c979ec11fed24783495336efc181c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_17
+    second: {fileID: 2800000, guid: 7d58362d4d5478e41b6efbcb1b08ed7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_2
+    second: {fileID: 2800000, guid: c40df54cdbf12e84d99b1a781b62d5ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_3
+    second: {fileID: 2800000, guid: 35cc742b2c9123e4d9bcf4e6e45eaa44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_4
+    second: {fileID: 2800000, guid: f468d54a793ad614c829f9f26e84acc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_6
+    second: {fileID: 2800000, guid: f41a0b6e6df42754b8636d079776ea4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_7
+    second: {fileID: 2800000, guid: 4a5e0980ffc213f4a9b456cf668165be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_9
+    second: {fileID: 2800000, guid: 41f97feef1cb2bc41905322518454398, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Show your Moves(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Armature
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Armature
+      position: {x: 0.000011884259, y: -0.000031271018, z: 0.010067082}
+      rotation: {x: 0.71849006, y: 0.000018246383, z: 0.00001884426, w: 0.69553727}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.9999996}
+    - name: Spine
+      parentName: Hips
+      position: {x: -1.491418e-14, y: 0.0009847309, z: 2.0489135e-10}
+      rotation: {x: -0.06869318, y: -0.000026307454, z: -0.000001827235, w: 0.99763787}
+      scale: {x: 0.9999996, y: 1.0000011, z: 1.0000011}
+    - name: Spine1
+      parentName: Spine
+      position: {x: -2.2498669e-15, y: 0.0013049744, z: -8.469214e-11}
+      rotation: {x: -0.032173853, y: -0.000000060435916, z: -0.00000007298069, w: 0.9994823}
+      scale: {x: 1.0000011, y: 1.0000018, z: 1.000002}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: -3.379341e-12, y: 0.0012180645, z: -4.7168686e-10}
+      rotation: {x: 0.047201343, y: 0.00000024882942, z: -0.00000011606042, w: 0.9988854}
+      scale: {x: 1.0000002, y: 0.99999887, z: 0.9999986}
+    - name: Neck
+      parentName: Spine2
+      position: {x: -1.8476908e-11, y: 0.0015557494, z: -3.8141e-10}
+      rotation: {x: 0.20306833, y: -0.000000018045794, z: -0.00000013852909, w: 0.97916454}
+      scale: {x: 0.99999976, y: 1.000001, z: 1.0000013}
+    - name: Head
+      parentName: Neck
+      position: {x: -7.601202e-11, y: 0.0012263815, z: -3.0199515e-10}
+      rotation: {x: -0.16267554, y: 0.00000031313579, z: 0.00000037759335, w: 0.9866796}
+      scale: {x: 0.99999994, y: 1.0000015, z: 1.0000031}
+    - name: HeadTop_End
+      parentName: Head
+      position: {x: -5.743569e-10, y: 0.0022634484, z: 0.00037322476}
+      rotation: {x: -0.003611818, y: -0.00000029497642, z: -0.00000028415306, w: 0.9999935}
+      scale: {x: 0.9999999, y: 1.000002, z: 1.0000011}
+    - name: LeftEye
+      parentName: Head
+      position: {x: -0.00030352734, y: 0.0008783976, z: 0.00082406175}
+      rotation: {x: -0.0036109984, y: -0.00000005839027, z: -0.00000005053864, w: 0.99999356}
+      scale: {x: 0.9999999, y: 1.0000031, z: 1.0000021}
+    - name: RightEye
+      parentName: Head
+      position: {x: 0.00029882236, y: 0.0008779087, z: 0.0008240661}
+      rotation: {x: -0.0036111027, y: -0.00000006423636, z: -0.00000005724645, w: 0.99999356}
+      scale: {x: 0.9999999, y: 1.0000031, z: 1.0000024}
+    - name: LeftShoulder
+      parentName: Spine2
+      position: {x: -0.0004713557, y: 0.0014114805, z: -0.0000625511}
+      rotation: {x: 0.50493515, y: -0.489481, z: 0.5147024, w: 0.490439}
+      scale: {x: 1.0000011, y: 1.0000002, z: 0.9999999}
+    - name: LeftArm
+      parentName: LeftShoulder
+      position: {x: 3.1795117e-10, y: 0.0011889562, z: 0.0000000034097865}
+      rotation: {x: -0.0025964668, y: -0.047994148, z: -0.0013773735, w: 0.9988433}
+      scale: {x: 1.0000018, y: 1.0000024, z: 1.0000004}
+    - name: LeftForeArm
+      parentName: LeftArm
+      position: {x: -3.300796e-10, y: 0.002851292, z: 0.000000002732577}
+      rotation: {x: -0.022262635, y: -0.020526243, z: -0.03290594, w: 0.9989996}
+      scale: {x: 1.0000005, y: 1.0000054, z: 1.0000033}
+    - name: LeftHand
+      parentName: LeftForeArm
+      position: {x: -0.0000000013118028, y: 0.0025197228, z: -0.0000000026578215}
+      rotation: {x: 0.04622751, y: -0.038714785, z: 0.018517613, w: 0.9980086}
+      scale: {x: 1.0000007, y: 0.9999989, z: 0.9999996}
+    - name: LeftHandThumb1
+      parentName: LeftHand
+      position: {x: 0.00032356087, y: 0.00026351793, z: 0.00005173043}
+      rotation: {x: 0.053274143, y: 0.06494813, z: -0.4238986, w: 0.9018057}
+      scale: {x: 1.0000011, y: 1.0000007, z: 0.9999994}
+    - name: LeftHandThumb2
+      parentName: LeftHandThumb1
+      position: {x: -0.0000000019717126, y: 0.00041382498, z: 0.0000000012863371}
+      rotation: {x: 0.006047982, y: 0.07682889, z: 0.029914424, w: 0.9965771}
+      scale: {x: 1.0000057, y: 0.9999974, z: 0.9999986}
+    - name: LeftHandThumb3
+      parentName: LeftHandThumb2
+      position: {x: 8.828817e-10, y: 0.00030486865, z: 2.5117667e-11}
+      rotation: {x: 0.004496158, y: 0.024872767, z: 0.039091714, w: 0.9989159}
+      scale: {x: 1.0000039, y: 1.0000021, z: 1.000002}
+    - name: LeftHandThumb4
+      parentName: LeftHandThumb3
+      position: {x: 6.322266e-10, y: 0.00035285004, z: 0.0000000010603176}
+      rotation: {x: 0.0129774455, y: -0.052386247, z: 0.00692937, w: 0.9985185}
+      scale: {x: 1.0000004, y: 1.000003, z: 1.0000007}
+    - name: LeftHandIndex1
+      parentName: LeftHand
+      position: {x: 0.00035346544, y: 0.0009745378, z: -0.000069521535}
+      rotation: {x: 0.06488484, y: 0.05291954, z: -0.0651291, w: 0.994358}
+      scale: {x: 1.000001, y: 1.000003, z: 1.0000025}
+    - name: LeftHandIndex2
+      parentName: LeftHandIndex1
+      position: {x: -6.645029e-10, y: 0.00044678643, z: 1.4297376e-10}
+      rotation: {x: 0.0373544, y: 0.005822626, z: -0.01009261, w: 0.9992342}
+      scale: {x: 1.0000007, y: 1.0000044, z: 0.99999905}
+    - name: LeftHandIndex3
+      parentName: LeftHandIndex2
+      position: {x: -5.182406e-10, y: 0.00028345588, z: 0.0000000012492846}
+      rotation: {x: 0.038068175, y: 0.07610233, z: 0.009589182, w: 0.9963269}
+      scale: {x: 1.0000035, y: 1.000007, z: 0.99999875}
+    - name: LeftHandIndex4
+      parentName: LeftHandIndex3
+      position: {x: -9.35786e-10, y: 0.00033838907, z: 0.000000001947086}
+      rotation: {x: 0.044785544, y: -0.056746606, z: 0.007133278, w: 0.9973581}
+      scale: {x: 1.0000017, y: 1.0000075, z: 1.0000004}
+    - name: LeftHandMiddle1
+      parentName: LeftHand
+      position: {x: 0.00009198973, y: 0.0010019727, z: -0.000034842247}
+      rotation: {x: 0.03872359, y: 0.06741035, z: -0.015205146, w: 0.9968576}
+      scale: {x: 0.9999982, y: 1.0000001, z: 0.9999997}
+    - name: LeftHandMiddle2
+      parentName: LeftHandMiddle1
+      position: {x: 3.7687672e-10, y: 0.00045698197, z: 5.662533e-10}
+      rotation: {x: 0.034894455, y: 0.009792156, z: -0.011786064, w: 0.9992736}
+      scale: {x: 1.0000007, y: 1.0000019, z: 0.99999917}
+    - name: LeftHandMiddle3
+      parentName: LeftHandMiddle2
+      position: {x: -2.9578526e-10, y: 0.00035407388, z: 0.0000000019082265}
+      rotation: {x: 0.03235558, y: 0.023085501, z: 0.006989216, w: 0.9991853}
+      scale: {x: 1.0000017, y: 1.0000082, z: 0.9999955}
+    - name: LeftHandMiddle4
+      parentName: LeftHandMiddle3
+      position: {x: 8.191473e-10, y: 0.00034562298, z: -0.0000000015167896}
+      rotation: {x: 0.023811948, y: -0.022458969, z: 0.0016434075, w: 0.9994628}
+      scale: {x: 1.0000002, y: 1.0000033, z: 0.9999993}
+    - name: LeftHandRing1
+      parentName: LeftHand
+      position: {x: -0.00015421817, y: 0.0009560405, z: 0.000022301809}
+      rotation: {x: 0.033887904, y: 0.055918775, z: 0.017790578, w: 0.99770147}
+      scale: {x: 0.9999992, y: 1.0000038, z: 1.0000008}
+    - name: LeftHandRing2
+      parentName: LeftHandRing1
+      position: {x: -5.158857e-10, y: 0.00041899612, z: 0.0000000014182303}
+      rotation: {x: 0.032887116, y: 0.016493468, z: -0.008097208, w: 0.9992902}
+      scale: {x: 1.000003, y: 1.0000042, z: 0.999998}
+    - name: LeftHandRing3
+      parentName: LeftHandRing2
+      position: {x: -4.813475e-10, y: 0.00036163232, z: -6.101791e-10}
+      rotation: {x: 0.03905482, y: 0.0057887607, z: -0.001895647, w: 0.9992186}
+      scale: {x: 1.0000025, y: 1.0000085, z: 1.0000032}
+    - name: LeftHandRing4
+      parentName: LeftHandRing3
+      position: {x: -7.264559e-11, y: 0.00029813003, z: 0.0000000013377598}
+      rotation: {x: 0.006654208, y: 0.0068985, z: -0.02211622, w: 0.99970955}
+      scale: {x: 1.0000019, y: 1.0000046, z: 1.0000012}
+    - name: LeftHandPinky1
+      parentName: LeftHand
+      position: {x: -0.00039131555, y: 0.00089813455, z: 0.000105446685}
+      rotation: {x: -0.017768497, y: 0.9992591, z: 0.023892876, w: -0.02438467}
+      scale: {x: 1.0000006, y: 1.0000037, z: 0.99999976}
+    - name: LeftHandPinky2
+      parentName: LeftHandPinky1
+      position: {x: -1.0374344e-10, y: 0.00028152537, z: -8.9419355e-10}
+      rotation: {x: 0.017801322, y: -0.96468407, z: 0.0322149, w: 0.26082557}
+      scale: {x: 0.99999815, y: 0.99999887, z: 1.0000011}
+    - name: LeftHandPinky3
+      parentName: LeftHandPinky2
+      position: {x: 2.3685704e-11, y: 0.00022376269, z: 6.6383135e-11}
+      rotation: {x: 0.03723609, y: 0.012016712, z: -0.0036900411, w: 0.99922746}
+      scale: {x: 1.000005, y: 1.0000103, z: 0.9999971}
+    - name: LeftHandPinky4
+      parentName: LeftHandPinky3
+      position: {x: 5.977563e-10, y: 0.0002632429, z: -0.000000001815555}
+      rotation: {x: 0.1374029, y: -0.10453141, z: 0.012380871, w: 0.98490626}
+      scale: {x: 1.0000004, y: 1.00001, z: 0.99999213}
+    - name: RightShoulder
+      parentName: Spine2
+      position: {x: 0.00047135472, y: 0.0014114808, z: -0.00006255117}
+      rotation: {x: 0.5049325, y: 0.48948258, z: -0.514701, w: 0.49044156}
+      scale: {x: 1.0000013, y: 1.000002, z: 1.000001}
+    - name: RightArm
+      parentName: RightShoulder
+      position: {x: -5.808774e-11, y: 0.0011889564, z: -0.0000000032400305}
+      rotation: {x: 0.0025920116, y: -0.047995303, z: -0.001377016, w: -0.9988433}
+      scale: {x: 1.0000008, y: 1.0000012, z: 0.9999992}
+    - name: RightForeArm
+      parentName: RightArm
+      position: {x: 2.1451278e-10, y: 0.0028512888, z: -6.1786154e-10}
+      rotation: {x: 0.022263875, y: -0.020524489, z: -0.032906055, w: -0.9989996}
+      scale: {x: 1.000002, y: 1.0000044, z: 1.0000046}
+    - name: RightHand
+      parentName: RightForeArm
+      position: {x: 4.6256252e-11, y: 0.0025197235, z: -1.7996382e-10}
+      rotation: {x: 0.046230707, y: 0.03872157, z: -0.018513618, w: 0.9980084}
+      scale: {x: 1.0000023, y: 1.0000057, z: 1.0000042}
+    - name: Saber_Handle
+      parentName: RightHand
+      position: {x: -0.00023412301, y: 0.0011617535, z: 0.00031794727}
+      rotation: {x: 0.7704757, y: 0.14669274, z: -0.61825037, w: -0.051136605}
+      scale: {x: 0.010000007, y: 0.010000005, z: 0.010000002}
+    - name: Saber_Laser
+      parentName: RightHand
+      position: {x: -0.00023412301, y: 0.0011617535, z: 0.00031794727}
+      rotation: {x: 0.7704757, y: 0.14669274, z: -0.61825037, w: -0.051136605}
+      scale: {x: 0.010000007, y: 0.010000005, z: 0.010000002}
+    - name: RightHandThumb1
+      parentName: RightHand
+      position: {x: -0.0003235592, y: 0.00026352037, z: 0.000051732608}
+      rotation: {x: 0.053274438, y: -0.06494895, z: 0.42389283, w: 0.9018083}
+      scale: {x: 1.0000007, y: 1.0000048, z: 0.999999}
+    - name: RightHandThumb2
+      parentName: RightHandThumb1
+      position: {x: -7.7081375e-10, y: 0.00041382306, z: -0.0000000014295573}
+      rotation: {x: 0.006052989, y: -0.07681505, z: -0.02991096, w: 0.9965782}
+      scale: {x: 1.0000129, y: 0.99999446, z: 0.99999803}
+    - name: RightHandThumb3
+      parentName: RightHandThumb2
+      position: {x: -2.7384893e-11, y: 0.00030486356, z: -1.5046231e-10}
+      rotation: {x: 0.0045008366, y: -0.024887962, z: -0.039085727, w: 0.9989158}
+      scale: {x: 1.0000004, y: 1.0000036, z: 1.0000013}
+    - name: RightHandThumb4
+      parentName: RightHandThumb3
+      position: {x: 2.6525443e-10, y: 0.00035285056, z: -0.0000000010133719}
+      rotation: {x: 0.012980152, y: 0.05237793, z: -0.006926695, w: 0.998519}
+      scale: {x: 1.0000005, y: 1.0000013, z: 1.0000014}
+    - name: RightHandIndex1
+      parentName: RightHand
+      position: {x: -0.0003534625, y: 0.0009745431, z: -0.0000695188}
+      rotation: {x: 0.06488762, y: -0.05292507, z: 0.06512819, w: 0.9943576}
+      scale: {x: 1.0000027, y: 1.0000044, z: 1.0000018}
+    - name: RightHandIndex2
+      parentName: RightHandIndex1
+      position: {x: 1.1583185e-10, y: 0.0004467856, z: 4.1245984e-10}
+      rotation: {x: 0.037348382, y: -0.005824827, z: 0.010095373, w: 0.9992344}
+      scale: {x: 1.0000017, y: 1.0000055, z: 0.9999998}
+    - name: RightHandIndex3
+      parentName: RightHandIndex2
+      position: {x: 3.5467085e-12, y: 0.0002834596, z: 8.723107e-10}
+      rotation: {x: 0.038076673, y: -0.07609415, z: -0.009597211, w: 0.9963272}
+      scale: {x: 1.0000023, y: 1.0000068, z: 0.9999967}
+    - name: RightHandIndex4
+      parentName: RightHandIndex3
+      position: {x: -5.3895305e-10, y: 0.00033838747, z: 4.3680443e-10}
+      rotation: {x: 0.04479741, y: 0.056735635, z: -0.007134831, w: 0.99735826}
+      scale: {x: 1.0000008, y: 1.0000044, z: 0.9999984}
+    - name: RightHandMiddle1
+      parentName: RightHand
+      position: {x: -0.00009198677, y: 0.0010019828, z: -0.000034840705}
+      rotation: {x: 0.038720604, y: -0.06741858, z: 0.015204603, w: 0.99685717}
+      scale: {x: 1.0000021, y: 1.0000006, z: 1.0000005}
+    - name: RightHandMiddle2
+      parentName: RightHandMiddle1
+      position: {x: -9.2414126e-10, y: 0.00045697638, z: -0.0000000011599397}
+      rotation: {x: 0.034897316, y: -0.009789787, z: 0.01178508, w: 0.9992734}
+      scale: {x: 1.000001, y: 1.0000031, z: 1}
+    - name: RightHandMiddle3
+      parentName: RightHandMiddle2
+      position: {x: -2.416185e-10, y: 0.00035407618, z: -0.000000002706206}
+      rotation: {x: 0.03234285, y: -0.02308887, z: -0.0069842367, w: 0.99918574}
+      scale: {x: 1.0000011, y: 1.0000093, z: 0.9999923}
+    - name: RightHandMiddle4
+      parentName: RightHandMiddle3
+      position: {x: 0.0000000012399263, y: 0.00034562632, z: 0.0000000015574325}
+      rotation: {x: 0.023805112, y: 0.022468166, z: -0.0016442192, w: 0.99946284}
+      scale: {x: 0.9999998, y: 1.0000036, z: 0.99999964}
+    - name: RightHandRing1
+      parentName: RightHand
+      position: {x: 0.00015422032, y: 0.0009560428, z: 0.000022298414}
+      rotation: {x: 0.033887196, y: -0.055924542, z: -0.017794434, w: 0.99770105}
+      scale: {x: 1.0000021, y: 1.0000021, z: 1}
+    - name: RightHandRing2
+      parentName: RightHandRing1
+      position: {x: 2.8773023e-10, y: 0.00041900424, z: -2.588451e-10}
+      rotation: {x: 0.032884482, y: -0.016489172, z: 0.008096514, w: 0.9992904}
+      scale: {x: 0.9999996, y: 1.0000024, z: 0.9999976}
+    - name: RightHandRing3
+      parentName: RightHandRing2
+      position: {x: 1.6282727e-10, y: 0.00036162764, z: 3.807024e-10}
+      rotation: {x: 0.039064217, y: -0.0057954607, z: 0.001898157, w: 0.9992181}
+      scale: {x: 1.0000008, y: 1.0000039, z: 0.99999744}
+    - name: RightHandRing4
+      parentName: RightHandRing3
+      position: {x: -2.7741495e-10, y: 0.0002981297, z: -0.0000000015295846}
+      rotation: {x: 0.006657242, y: -0.0069065015, z: 0.02211606, w: 0.99970937}
+      scale: {x: 1.0000032, y: 1.0000026, z: 1.0000012}
+    - name: RightHandPinky1
+      parentName: RightHand
+      position: {x: 0.00039131858, y: 0.0008981375, z: 0.000105437626}
+      rotation: {x: 0.017663054, y: 0.99936074, z: 0.02398933, w: 0.019768331}
+      scale: {x: 1.0000018, y: 0.9999996, z: 0.99999887}
+    - name: RightHandPinky2
+      parentName: RightHandPinky1
+      position: {x: -5.389834e-10, y: 0.00028152185, z: 0.000000005103084}
+      rotation: {x: 0.019230774, y: 0.9733229, z: -0.03139512, w: 0.22646664}
+      scale: {x: 1.0000013, y: 1.000003, z: 1.0000023}
+    - name: RightHandPinky3
+      parentName: RightHandPinky2
+      position: {x: 2.2457652e-10, y: 0.00022375982, z: -0.000000003196391}
+      rotation: {x: 0.037045192, y: -0.052043825, z: 0.0051741456, w: 0.9979441}
+      scale: {x: 1.0000011, y: 1.0000038, z: 0.99999946}
+    - name: RightHandPinky4
+      parentName: RightHandPinky3
+      position: {x: -7.8042445e-10, y: 0.0002632443, z: 1.7043084e-10}
+      rotation: {x: 0.13739713, y: 0.104536556, z: -0.0123777045, w: 0.98490655}
+      scale: {x: 1.0000051, y: 1.0000114, z: 0.99999374}
+    - name: LeftUpLeg
+      parentName: Hips
+      position: {x: -0.0009534376, y: 0.000051924697, z: -0.000033022952}
+      rotation: {x: 0.0014210342, y: 0.00961377, z: 0.99941015, w: 0.03293804}
+      scale: {x: 1.0000129, y: 1.0000029, z: 1.0000037}
+    - name: LeftLeg
+      parentName: LeftUpLeg
+      position: {x: -1.0220263e-12, y: 0.0045817443, z: -8.443737e-12}
+      rotation: {x: -0.041654848, y: 0.00030802266, z: 0.0029110652, w: 0.99912775}
+      scale: {x: 1.0000035, y: 1.0000004, z: 1.0000019}
+    - name: LeftFoot
+      parentName: LeftLeg
+      position: {x: -0.000000008183755, y: 0.004438593, z: -0.0000000028741274}
+      rotation: {x: 0.507441, y: -0.01666965, z: -0.0015566864, w: 0.8615238}
+      scale: {x: 0.9999956, y: 0.99999803, z: 0.9999994}
+    - name: LeftToeBase
+      parentName: LeftFoot
+      position: {x: -0.000000014292066, y: 0.0014884453, z: 0.0000000056593743}
+      rotation: {x: 0.2682294, y: 0.04375246, z: -0.018545521, w: 0.9621823}
+      scale: {x: 1.0000002, y: 0.99999416, z: 1.000007}
+    - name: LeftToe_End
+      parentName: LeftToeBase
+      position: {x: 0.000000002516887, y: 0.0009907502, z: 0.000000004597785}
+      rotation: {x: 0.0069068973, y: -0.6984106, z: -0.017671423, w: 0.7154459}
+      scale: {x: 1.0000004, y: 1.0000012, z: 0.99999845}
+    - name: RightUpLeg
+      parentName: Hips
+      position: {x: 0.00095344055, y: 0.000051929466, z: -0.000032923337}
+      rotation: {x: -0.0014754143, y: 0.009615462, z: 0.99941015, w: -0.032937676}
+      scale: {x: 1.0000525, y: 1.0000029, z: 1.0000054}
+    - name: RightLeg
+      parentName: RightUpLeg
+      position: {x: -1.0959399e-10, y: 0.004581751, z: -1.3679333e-11}
+      rotation: {x: -0.04165532, y: -0.0003088975, z: -0.0029111227, w: 0.9991278}
+      scale: {x: 1.0000082, y: 1.0000044, z: 1.0000013}
+    - name: RightFoot
+      parentName: RightLeg
+      position: {x: -0.000000055297054, y: 0.0044386014, z: -0.000000062843505}
+      rotation: {x: 0.5074385, y: 0.0166685, z: 0.0015514906, w: 0.8615254}
+      scale: {x: 1.0000032, y: 1.0000012, z: 0.99999565}
+    - name: RightToeBase
+      parentName: RightFoot
+      position: {x: 0.000000022896561, y: 0.0014884418, z: -0.00000009400989}
+      rotation: {x: 0.26823178, y: -0.043744836, z: 0.018552996, w: 0.9621818}
+      scale: {x: 0.9999979, y: 1.0000027, z: 1.0000049}
+    - name: RightToe_End
+      parentName: RightToeBase
+      position: {x: -0.0000000085734175, y: 0.0009907486, z: -0.00000009941428}
+      rotation: {x: -0.006905881, y: -0.6984316, z: -0.017672533, w: -0.71542525}
+      scale: {x: 0.9999987, y: 1.0000044, z: 1.0000052}
+    - name: EyeLeft
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Poses__EyeLeft
+      parentName: EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: eyesLookDown
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesLookUp
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesClosed
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: tongueOut
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollUpper
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollLower
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFunnel
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthClose
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawOpen
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekPuff
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugUpper
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugLower
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPucker
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawForward
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browInnerUp
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownRight
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownLeft
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmile
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_U
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_O
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_I
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_E
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_aa
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_RR
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_nn
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_SS
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_CH
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_kk
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_DD
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_TH
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_FF
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_PP
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_sil
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthOpen
+      parentName: Poses__EyeLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: EyeRight
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Poses__EyeRight
+      parentName: EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: eyesLookDown_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesLookUp_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesClosed_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: tongueOut_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollUpper_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollLower_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFunnel_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthClose_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawOpen_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekPuff_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugUpper_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugLower_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPucker_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawForward_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browInnerUp_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownRight_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownLeft_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmile_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_U_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_O_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_I_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_E_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_aa_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_RR_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_nn_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_SS_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_CH_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_kk_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_DD_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_TH_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_FF_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_PP_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_sil_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthOpen_2
+      parentName: Poses__EyeRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Wolf3D_Body
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wolf3D_Facewear
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wolf3D_Hair
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wolf3D_Head
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Poses__Wolf3D_Head
+      parentName: Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: eyesLookDown_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesLookUp_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesClosed_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: tongueOut_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollUpper_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollLower_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFunnel_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthClose_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawOpen_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekPuff_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugUpper_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugLower_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPucker_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawForward_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browInnerUp_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownRight_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownLeft_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmile_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_U_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_O_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_I_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_E_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_aa_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_RR_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_nn_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_SS_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_CH_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_kk_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_DD_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_TH_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_FF_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_PP_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_sil_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthOpen_3
+      parentName: Poses__Wolf3D_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Wolf3D_Outfit_Bottom
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wolf3D_Outfit_Footwear
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wolf3D_Outfit_Top
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wolf3D_Teeth
+      parentName: Show your Moves(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Poses__Wolf3D_Teeth
+      parentName: Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: eyesLookDown_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesLookUp_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyesClosed_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeBlinkLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: tongueOut_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmileLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthUpperUpLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPressLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollUpper_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRollLower_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthStretchLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthDimpleLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFunnel_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthClose_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawOpen_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekSquintLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cheekPuff_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookOutLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookInLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookUpLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeLookDownLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthLowerDownLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: noseSneerLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugUpper_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthShrugLower_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthPucker_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthFrownLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jawForward_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeWideLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyeSquintLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browOuterUpLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browInnerUp_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownRight_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: browDownLeft_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthSmile_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_U_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_O_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_I_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_E_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_aa_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_RR_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_nn_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_SS_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_CH_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_kk_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_DD_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_TH_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_FF_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_PP_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: viseme_sil_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mouthOpen_4
+      parentName: Poses__Wolf3D_Teeth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
