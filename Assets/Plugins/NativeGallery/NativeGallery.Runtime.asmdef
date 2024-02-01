@@ -1,0 +1,16 @@
+{
+    "name": "NativeGallery.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:732e0b6ddb4081249b875bda4a093c8e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
