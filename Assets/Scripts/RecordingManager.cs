@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 using TMPro;
+using UnityEngine.XR.Interaction.Toolkit.AR;
 
 public class RecordingManager : MonoBehaviour
 {
@@ -29,7 +30,9 @@ public class RecordingManager : MonoBehaviour
 #else
         camera = GameObject.Find("AR Camera").GetComponent<Camera>();
 #endif
+        ARPlacementInteractable arPlacementInteractable;
 
+        arPlacementInteractable = GetComponent<ARPlacementInteractable>();
 
     }
 
