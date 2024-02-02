@@ -6,7 +6,10 @@ public class ExperienceManager : MonoBehaviour
 {
 
     public static string activeExpName = "Undfined";
+    public GameObject currentGameObject;
     public GameObject[] experiences;
+
+ 
 
     public void PlayExperience(int index)
     {
@@ -22,6 +25,7 @@ public class ExperienceManager : MonoBehaviour
         experiences[index].SetActive(true);
 
         activeExpName = experiences[index].name;
+        currentGameObject = experiences[index];
     }
   
 }

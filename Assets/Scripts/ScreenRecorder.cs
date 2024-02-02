@@ -63,7 +63,8 @@ public class ScreenRecorder
         audioStop = false;
 
         cameraInput = new CameraInput(recorder, Clock, camera);
-        audioInput = new AudioInput(recorder, Clock, listener, mute);
+        if(listener !=null) audioInput = new AudioInput(recorder, Clock, listener, mute);
+
         autoTick = autoRec;
         isRecording = true;
 
@@ -78,7 +79,7 @@ public class ScreenRecorder
         try
         {
             StopVideo();
-            if (mute) listener.mute = true;
+            if (mute && listener != null) listener.mute = true;
             audioInput?.Dispose();
             path = await recorder.FinishWriting();
         }
@@ -93,7 +94,8 @@ public class ScreenRecorder
     public void StopAudio()
     {
         audioStop = true;
-        audioInput?.Dispose();
+        if (listener != null)
+            audioInput?.Dispose();
     }
     public void StopVideo()
     {
