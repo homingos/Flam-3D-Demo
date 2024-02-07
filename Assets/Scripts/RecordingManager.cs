@@ -4,6 +4,7 @@ using System.IO;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine.XR.Interaction.Toolkit.AR;
+using UnityEngine.XR.ARFoundation;
 
 public class RecordingManager : MonoBehaviour
 {
@@ -11,9 +12,9 @@ public class RecordingManager : MonoBehaviour
     ScreenRecorder screenRecorder;
     public Camera camera;
     public AudioSource audioSource;
-    public TMP_Text recordButtonText;
+   // public TMP_Text recordButtonText;
 
-    public GameObject recordingBtn;
+  //  public GameObject recordingBtn;
 
     public ExperienceManager experienceManager; 
 
@@ -36,16 +37,36 @@ public class RecordingManager : MonoBehaviour
 
     }
 
+
+
+    public void OnTogglePlanes(bool flag)
+    {
+        foreach (GameObject plane in GameObject.FindGameObjectsWithTag("arplane"))
+        {
+            Renderer r = plane.GetComponent<Renderer>();
+            ARPlaneMeshVisualizer t = plane.GetComponent<ARPlaneMeshVisualizer>();
+            r.enabled = flag;
+            t.enabled = flag;
+        }
+    }
+
     // to handle the recoding
     public void handleRecording()
     {
         //try get the audio Source
         if (!isRecording)
         {
+            OnTogglePlanes(false);
+
+
             startRecording();
         }
         else {
+
+     
             stopRecording();
+
+            OnTogglePlanes(true);
         }
 
     }
@@ -59,7 +80,7 @@ public class RecordingManager : MonoBehaviour
             isRecordingButtonVisible = (experienceManager.currentGameObject != null);
 
             //update button
-            recordingBtn.SetActive(isRecordingButtonVisible);
+     //       recordingBtn.SetActive(isRecordingButtonVisible);
         }
     }
 
@@ -67,31 +88,19 @@ public class RecordingManager : MonoBehaviour
 
     // Start recording
     void startRecording()
-    {
-        Debug.Log("ttt s-1");
-       
-        Debug.Log("ttt s0");
-        
-
+    { 
         audioSource = experienceManager.currentGameObject.GetComponentInChildren<AudioSource>();
-        Debug.Log((audioSource == null) + "ttt s1");
-        Debug.Log("Start recording");
-        recordButtonText.SetText("Stop");
-        Debug.Log("ttt s2");
-
+      //  recordButtonText.SetText("Stop");
         isRecording = true;
-
         screenRecorder = new ScreenRecorder(camera, audioSource, false, width: 480, height: 480 * Screen.height / Screen.width);
-        Debug.Log("ttt s3");
         screenRecorder.StartRecording();
-        Debug.Log("ttt s4");
     }
 
     // Stop recording
     async void stopRecording(string folderName = "MyMedia")
     {
         Debug.Log("Stop recording");
-        recordButtonText.SetText("Start");
+     //   recordButtonText.SetText("Start");
 
         isRecording = false;
 

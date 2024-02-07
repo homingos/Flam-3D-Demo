@@ -13,13 +13,17 @@ public class PlacementController : MonoBehaviour
     Vector2 touchStartPosition;
     Vector3 objectStartPosition;
     Vector3 planeNormal;
-    GameObject currentExperience;
+ //   GameObject currentExperience;
     Vector3 initOffset;
     [SerializeField]
     float sensitivity = 0.1f;
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
 
+    RecordUI GetRecordUI()
+    {
+        return GameObject.FindObjectOfType<RecordUI>();
+    }
 
     void Start()
     {
@@ -52,28 +56,79 @@ public class PlacementController : MonoBehaviour
         }
     }
 
+    void MoveExperiencePosition(Vector3 touchPos)
+    {
+        if (arRaycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
+        {
+            // Get the hit point on the detected AR plane
+            Vector3 hitPoint = hits[0].pose.position;
+            Debug.Log("Hit point on AR plane: " + hitPoint);
+        //    SetExperience();
+            CalculateOffset();
+            GetExperience().transform.position = hitPoint + initOffset;
+            Debug.Log("New offset posisoin: " + hitPoint + initOffset);
+
+        }
+    }
+
+    void MoveExperienceMousePosition(Vector3 touchPos)
+    {
+     //   if (arRaycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
+        {
+            Camera camera = GameObject.FindObjectOfType<Camera>();
+            // Get the hit point on the detected AR plane
+            Vector3 hitPoint = camera.ScreenToWorldPoint(touchPos);
+            Debug.Log("Hit point on AR plane: " + hitPoint);
+
+       //     SetExperience();
+            CalculateOffset();
+            //    currentExperience = SelectExperience();
+            // if (currentExperience == null)
+            //      return;
+            GetExperience().transform.position = hitPoint + initOffset;
+            Debug.Log("New offset posisoin: " + hitPoint +" "+ initOffset);
+
+        }
+    }
+
+    bool initTouch;
+    float prevTime;
     void Update()
     {
-        if (Input.touchCount == 1)
+ //       if (Input.GetMouseButton(0))
         {
-            Touch touch = Input.GetTouch(0);
+          //  Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began)
+        //    if (touch.phase == TouchPhase.Began)
             {
                 // Perform a raycast from the screen touch position
-                if (arRaycastManager.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
+     //           MoveExperienceMousePosition(Input.mousePosition);
+            }
+         
+        }
+        if (Input.touchCount == 1 && !GetRecordUI().isPointerDown)
+        {
+            if(!initTouch)
+            {
+                initTouch = true;
+                prevTime = Time.time;
+            }
+
+            if (Time.time > prevTime + 0.8f)
+            {
+                Touch touch = Input.GetTouch(0);
+
+                //    if (touch.phase == TouchPhase.Began)
                 {
-                    // Get the hit point on the detected AR plane
-                    Vector3 hitPoint = hits[0].pose.position;
-                    Debug.Log("Hit point on AR plane: " + hitPoint);
-                    currentExperience = SelectExperience();
-                    if (currentExperience == null)
-                        return;
-                    currentExperience.transform.position = hitPoint + initOffset;
-                    Debug.Log("New offset posisoin: " + hitPoint + initOffset);
-                    
+                    // Perform a raycast from the screen touch position
+                    MoveExperiencePosition(touch.position);
                 }
             }
+        }
+
+        else
+        {
+            initTouch = false;
         }
     }
 
@@ -87,9 +142,9 @@ public class PlacementController : MonoBehaviour
 
     void CalculateOffset()
     {
-        Transform baseGameobjectTransform = currentExperience.transform.Find("BottomOrigin");
+        Transform baseGameobjectTransform = GetExperience().transform.Find("BottomOrigin");
         Debug.Log("Found baseObject: " + baseGameobjectTransform.position);
-        initOffset = currentExperience.transform.position - baseGameobjectTransform.position;
+        initOffset = GetExperience().transform.position - baseGameobjectTransform.position;
     }
 
     //void Update()
@@ -144,13 +199,31 @@ public class PlacementController : MonoBehaviour
 
     GameObject SelectExperience()
     {
-        if(experienceManager == null)   experienceManager = FindObjectOfType<ExperienceManager>();
-        Debug.Log("Getting the current Experience: " + (experienceManager == null));
-        currentExperience = experienceManager.currentGameObject;
+        if (experienceManager == null)
+        {
+            experienceManager = FindObjectOfType<ExperienceManager>();
+        }
+      //      currentExperience = experienceManager.currentGameObject;
+           
+        
         CalculateOffset();
-
-
         return experienceManager.currentGameObject;
     }
+
+
+    GameObject GetExperience()
+    {
+        if (experienceManager == null)
+        {
+            experienceManager = FindObjectOfType<ExperienceManager>();
+        }
+        //      currentExperience = experienceManager.currentGameObject;
+
+
+    //    CalculateOffset();
+        return experienceManager.currentGameObject;
+    }
+
+
 
 }
