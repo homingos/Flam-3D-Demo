@@ -405,7 +405,7 @@ MonoBehaviour:
   m_XROrigin: {fileID: 0}
   m_ExcludeUITouches: 1
   m_ARSessionOrigin: {fileID: 1981382623}
-  m_PlacementPrefab: {fileID: 9019433546149033968, guid: 86e4f9d36cd5148d5a79b5bc55c8a250,
+  m_PlacementPrefab: {fileID: 9019433546149033968, guid: 770d00b0c8f644326b405dc024e95350,
     type: 3}
   m_FallbackLayerMask:
     serializedVersion: 2

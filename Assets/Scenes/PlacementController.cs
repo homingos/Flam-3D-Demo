@@ -91,15 +91,37 @@ public class PlacementController : MonoBehaviour
         }
     }
 
+    public void MoveAvtar(Vector2 Touchdelta)
+    {
+        Touchdelta = Touchdelta * 0.002f;
+        Vector3 move3d = (Camera.main.transform.forward)*Touchdelta.y + (Camera.main.transform.right) * Touchdelta.x;
+        GetExperience().transform.position = GetExperience().transform.position + new Vector3(move3d.x, 0, move3d.z);
+
+        //       GetExperience().transform.position
+        //         += (Camera.main.transform.forward)* Touchdelta.y;
+        //    GetExperience().transform.position
+        //      += (Camera.main.transform.right) * Touchdelta.x;
+
+        //    GetExperience().transform.localPosition
+        //       -= (GetExperience().transform.forward)* Touchdelta.y;
+        //  GetExperience().transform.position
+        //    -= (GetExperience().transform.right) * Touchdelta.x;
+    }
+
     bool initTouch;
     float prevTime;
     void Update()
     {
- //       if (Input.GetMouseButton(0))
-        {
-          //  Touch touch = Input.GetTouch(0);
 
-        //    if (touch.phase == TouchPhase.Began)
+      //  Debug.Log("sceenwid " + Screen.width);
+     //   Debug.Log("sceenwid1 " + Screen.height);
+
+
+        //       if (Input.GetMouseButton(0))
+        {
+            //  Touch touch = Input.GetTouch(0);
+
+            //    if (touch.phase == TouchPhase.Began)
             {
                 // Perform a raycast from the screen touch position
      //           MoveExperienceMousePosition(Input.mousePosition);
@@ -108,20 +130,24 @@ public class PlacementController : MonoBehaviour
         }
         if (Input.touchCount == 1 && !GetRecordUI().isPointerDown)
         {
-            if(!initTouch)
+
+           
+            if (!initTouch)
             {
                 initTouch = true;
                 prevTime = Time.time;
             }
 
-            if (Time.time > prevTime + 0.8f)
+    //        if (Time.time > prevTime + 0.8f)
             {
                 Touch touch = Input.GetTouch(0);
 
-                //    if (touch.phase == TouchPhase.Began)
+           //     Debug.Log("sceenwid1 " + touch.position);//    if (touch.phase == TouchPhase.Began)
                 {
                     // Perform a raycast from the screen touch position
-                    MoveExperiencePosition(touch.position);
+                    //      MoveExperiencePosition(touch.position);
+                    if(touch.position.y > Screen.height/4)
+                    MoveAvtar(touch.deltaPosition);
                 }
             }
         }
