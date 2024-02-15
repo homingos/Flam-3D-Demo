@@ -128,7 +128,7 @@ public class PlacementController : MonoBehaviour
             }
          
         }
-        if (Input.touchCount == 1 && !GetRecordUI().isPointerDown)
+        if (Input.touchCount == 1 && GetExperience()!=null && GetRecordUI()!=null && !GetRecordUI().isPointerDown)
         {
 
            
@@ -246,9 +246,12 @@ public class PlacementController : MonoBehaviour
         //      currentExperience = experienceManager.currentGameObject;
 
 
-    //    CalculateOffset();
-        return experienceManager.currentGameObject;
+        //    CalculateOffset();
+        if (experienceManager != null)
+            return experienceManager.currentGameObject;
+        else return null;
     }
+
 
 
 
