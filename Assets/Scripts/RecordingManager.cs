@@ -118,9 +118,27 @@ public class RecordingManager : MonoBehaviour
         string extension = Path.GetExtension(path);
         var name = uuid.ToString().Replace("-", "");
         Debug.Log(path +"Calling Save Video" +path);
-        NativeGallery.SaveVideoToGallery(path, folderName, name + extension);
+        NativeGallery.SaveVideoToGallery(path, folderName, name + extension, OnMediaSaved);
+        File.Copy(path, Path.Combine(Application.persistentDataPath, name + extension));
         Debug.Log("saved at " + path);
+        Debug.Log("PATH  " + Path.Combine(path, folderName, name + extension));
+        NativeShare nativeShare = new NativeShare();
+        nativeShare.AddFile(Path.Combine(Application.persistentDataPath, name + extension));
+        nativeShare.Share();
+
     }
+
+    private void OnMediaSaved(bool success, string path)
+    {
+      //  NativeGallery.RequestPermission(NativeGallery.PermissionType.Read, NativeGallery.MediaType.Video);
+        Debug.Log("path bool " + success);
+        return;
+        NativeShare nativeShare = new NativeShare();
+        nativeShare.AddFile(path);
+        nativeShare.Share();
+    }
+
+   
 
    
 }

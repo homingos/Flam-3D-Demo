@@ -13,7 +13,7 @@ public class PlacementController : MonoBehaviour
     Vector2 touchStartPosition;
     Vector3 objectStartPosition;
     Vector3 planeNormal;
- //   GameObject currentExperience;
+    //   GameObject currentExperience;
     Vector3 initOffset;
     [SerializeField]
     float sensitivity = 0.1f;
@@ -27,16 +27,17 @@ public class PlacementController : MonoBehaviour
 
     void Start()
     {
-        InitPlaneManager();   
+        InitPlaneManager();
     }
 
-    void InitPlaneManager() {
-        if(arPlaneManager == null)  arPlaneManager = FindObjectOfType<ARPlaneManager>();
+    void InitPlaneManager()
+    {
+        if (arPlaneManager == null) arPlaneManager = FindObjectOfType<ARPlaneManager>();
         if (arRaycastManager == null) arRaycastManager = FindObjectOfType<ARRaycastManager>();
 
         arPlaneManager.planesChanged += OnPlanesChanged;
 
-        Debug.Log("Found ARPlane manager: " + (arPlaneManager==null));
+        Debug.Log("Found ARPlane manager: " + (arPlaneManager == null));
     }
 
     void OnPlanesChanged(ARPlanesChangedEventArgs eventArgs)
@@ -63,7 +64,7 @@ public class PlacementController : MonoBehaviour
             // Get the hit point on the detected AR plane
             Vector3 hitPoint = hits[0].pose.position;
             Debug.Log("Hit point on AR plane: " + hitPoint);
-        //    SetExperience();
+            //    SetExperience();
             CalculateOffset();
             GetExperience().transform.position = hitPoint + initOffset;
             Debug.Log("New offset posisoin: " + hitPoint + initOffset);
@@ -73,20 +74,20 @@ public class PlacementController : MonoBehaviour
 
     void MoveExperienceMousePosition(Vector3 touchPos)
     {
-     //   if (arRaycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
+        //   if (arRaycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
         {
             Camera camera = GameObject.FindObjectOfType<Camera>();
             // Get the hit point on the detected AR plane
             Vector3 hitPoint = camera.ScreenToWorldPoint(touchPos);
             Debug.Log("Hit point on AR plane: " + hitPoint);
 
-       //     SetExperience();
+            //     SetExperience();
             CalculateOffset();
             //    currentExperience = SelectExperience();
             // if (currentExperience == null)
             //      return;
             GetExperience().transform.position = hitPoint + initOffset;
-            Debug.Log("New offset posisoin: " + hitPoint +" "+ initOffset);
+            Debug.Log("New offset posisoin: " + hitPoint + " " + initOffset);
 
         }
     }
@@ -94,7 +95,7 @@ public class PlacementController : MonoBehaviour
     public void MoveAvtar(Vector2 Touchdelta)
     {
         Touchdelta = Touchdelta * 0.002f;
-        Vector3 move3d = (Camera.main.transform.forward)*Touchdelta.y + (Camera.main.transform.right) * Touchdelta.x;
+        Vector3 move3d = (Camera.main.transform.forward) * Touchdelta.y + (Camera.main.transform.right) * Touchdelta.x;
         GetExperience().transform.position = GetExperience().transform.position + new Vector3(move3d.x, 0, move3d.z);
 
         //       GetExperience().transform.position
@@ -113,8 +114,8 @@ public class PlacementController : MonoBehaviour
     void Update()
     {
 
-      //  Debug.Log("sceenwid " + Screen.width);
-     //   Debug.Log("sceenwid1 " + Screen.height);
+        //  Debug.Log("sceenwid " + Screen.width);
+        //   Debug.Log("sceenwid1 " + Screen.height);
 
 
         //       if (Input.GetMouseButton(0))
@@ -124,30 +125,30 @@ public class PlacementController : MonoBehaviour
             //    if (touch.phase == TouchPhase.Began)
             {
                 // Perform a raycast from the screen touch position
-     //           MoveExperienceMousePosition(Input.mousePosition);
+                //           MoveExperienceMousePosition(Input.mousePosition);
             }
-         
+
         }
-        if (Input.touchCount == 1 && !GetRecordUI().isPointerDown)
+        if (Input.touchCount == 1 && GetExperience() != null && GetRecordUI() != null && !GetRecordUI().isPointerDown)
         {
 
-           
+
             if (!initTouch)
             {
                 initTouch = true;
                 prevTime = Time.time;
             }
 
-    //        if (Time.time > prevTime + 0.8f)
+            //        if (Time.time > prevTime + 0.8f)
             {
                 Touch touch = Input.GetTouch(0);
 
-           //     Debug.Log("sceenwid1 " + touch.position);//    if (touch.phase == TouchPhase.Began)
+                //     Debug.Log("sceenwid1 " + touch.position);//    if (touch.phase == TouchPhase.Began)
                 {
                     // Perform a raycast from the screen touch position
                     //      MoveExperiencePosition(touch.position);
-                    if(touch.position.y > Screen.height/4)
-                    MoveAvtar(touch.deltaPosition);
+                    if (touch.position.y > Screen.height / 4)
+                        MoveAvtar(touch.deltaPosition);
                 }
             }
         }
@@ -162,7 +163,7 @@ public class PlacementController : MonoBehaviour
     {
         // Instantiate a cube at the specified position
         GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        cube.transform.localScale = Vector3.one/30;
+        cube.transform.localScale = Vector3.one / 30;
         cube.transform.position = position;
     }
 
@@ -229,9 +230,9 @@ public class PlacementController : MonoBehaviour
         {
             experienceManager = FindObjectOfType<ExperienceManager>();
         }
-      //      currentExperience = experienceManager.currentGameObject;
-           
-        
+        //      currentExperience = experienceManager.currentGameObject;
+
+
         CalculateOffset();
         return experienceManager.currentGameObject;
     }
@@ -246,9 +247,12 @@ public class PlacementController : MonoBehaviour
         //      currentExperience = experienceManager.currentGameObject;
 
 
-    //    CalculateOffset();
-        return experienceManager.currentGameObject;
+        //    CalculateOffset();
+        if (experienceManager != null)
+            return experienceManager.currentGameObject;
+        else return null;
     }
+
 
 
 
