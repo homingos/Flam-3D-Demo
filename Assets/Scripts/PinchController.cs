@@ -89,7 +89,7 @@ public class PinchController : MonoBehaviour
 
         // Calculate the difference in distances to determine pinch amount
         float deltaMagnitudeDiff =  touchDeltaMag - prevTouchDeltaMag;
-
+        Debug.Log("deltaMagnitudeDiff "+deltaMagnitudeDiff +"  minPinchDistance "+minPinchDistance);
         // Check if pinch distance is large enough
         if (Mathf.Abs(deltaMagnitudeDiff) > minPinchDistance)
         {

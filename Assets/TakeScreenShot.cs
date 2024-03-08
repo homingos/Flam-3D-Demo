@@ -48,7 +48,11 @@ public class TakeScreenShot : MonoBehaviour
         canvas.SetActive(true);
         rawImage.texture = tex;
         t = tex;
-        screenShotWindow.SetActive(true);
+
+
+       //saving photo directly to gallery
+       // screenShotWindow.SetActive(true);
+       SavePhotoToGallery(tex, "INC");
     }
 
     public void OnShare()
@@ -61,5 +65,16 @@ public class TakeScreenShot : MonoBehaviour
     public void OnCancel()
     {
         screenShotWindow.SetActive(false);
+    }
+
+    void SavePhotoToGallery(Texture2D path, string folderName)
+    {
+    //path =   Path.Combine(Application.persistentDataPath,currentPhotoName);
+        Guid uuid = Guid.NewGuid();
+    //    string extension = Path.GetExtension(path);
+        var name = uuid.ToString().Replace("-", "");
+        Debug.Log(path +"Calling Save Video" +path);
+        NativeGallery.SaveImageToGallery(path, folderName, name + "jpg", null);
+        Debug.Log("saved at " + path);
     }
 }
