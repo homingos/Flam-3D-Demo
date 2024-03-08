@@ -146,7 +146,7 @@ public class PlacementController : MonoBehaviour
                 {
                     // Perform a raycast from the screen touch position
                     //      MoveExperiencePosition(touch.position);
-                    if(touch.position.y > Screen.height/4)
+                    if(touch.position.y > Screen.height/4 && touch.position.y<(Screen.height* 0.75f))
                     MoveAvtar(touch.deltaPosition);
                 }
             }

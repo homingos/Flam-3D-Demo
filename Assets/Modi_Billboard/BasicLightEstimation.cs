@@ -21,13 +21,15 @@ namespace UnityEngine.XR.ARFoundation.Samples
         public void Increase()
         {
             sensitvity += 0.1f;
+            Debug.Log("sestivity  " + sensitvity);
        //     m_Light.intensity +=  sensitvity;
         }
 
         public void Decrease()
         {
             sensitvity -= 0.1f;
-          //  m_Light.intensity +=  sensitvity;
+            Debug.Log("sestivity  " + sensitvity);
+            //  m_Light.intensity +=  sensitvity;
         }
 
         /// <summary>
@@ -93,14 +95,18 @@ namespace UnityEngine.XR.ARFoundation.Samples
             if (m_CameraManager != null)
                 m_CameraManager.frameReceived -= FrameChanged;
         }
-        
         void FrameChanged(ARCameraFrameEventArgs args)
         {
             if (args.lightEstimation.averageBrightness.HasValue)
             {
                 brightness = args.lightEstimation.averageBrightness.Value;
-              //  m_Light.intensity = brightness.Value;
-                m_Light.intensity = brightness.Value + sensitvity* brightness.Value;
+                m_Light.intensity = brightness.Value + sensitvity * brightness.Value;
+             //   m_Light.intensity = args.lightEstimation.averageMainLightBrightness.Value + sensitvity * args.lightEstimation.averageMainLightBrightness.Value; ;
+                        //Debug.Log("sestivity1  " + sensitvity);
+
+                      //  Debug.Log("sestivity3 brighness given " + brightness.Value);
+                    //    Debug.Log("sestivity2 final intensity " + m_Light.intensity);
+                //    }
             }
             else
             {
@@ -126,46 +132,83 @@ namespace UnityEngine.XR.ARFoundation.Samples
             {
                 colorCorrection = null;
             }
-
-            if (args.lightEstimation.mainLightDirection.HasValue)
-            {
-                mainLightDirection = args.lightEstimation.mainLightDirection;
-                m_Light.transform.rotation = Quaternion.LookRotation(mainLightDirection.Value);
-            
-            }
-         
-
-            if (args.lightEstimation.mainLightColor.HasValue)
-            {
-                mainLightColor = args.lightEstimation.mainLightColor;
-                m_Light.color = mainLightColor.Value;
-            }
-            else
-            {
-                mainLightColor = null;
-            }
-
-            if (args.lightEstimation.mainLightIntensityLumens.HasValue)
-            {
-                mainLightIntensityLumens = args.lightEstimation.mainLightIntensityLumens;
-                m_Light.intensity = args.lightEstimation.averageMainLightBrightness.Value  +sensitvity * args.lightEstimation.averageMainLightBrightness.Value; ;
-            }
-            else
-            {
-                mainLightIntensityLumens = null;
-            }
-
-            if (args.lightEstimation.ambientSphericalHarmonics.HasValue)
-            {
-                sphericalHarmonics = args.lightEstimation.ambientSphericalHarmonics;
-                RenderSettings.ambientMode = AmbientMode.Skybox;
-                RenderSettings.ambientProbe = sphericalHarmonics.Value;
-            }
-            else
-            {
-                sphericalHarmonics = null;
-            }
         }
+        //void FrameChanged(ARCameraFrameEventArgs args)
+        //{
+        //    if (args.lightEstimation.averageBrightness.HasValue)
+        //    {
+        //        brightness = args.lightEstimation.averageBrightness.Value;
+        //      //  m_Light.intensity = brightness.Value;
+        //        m_Light.intensity = brightness.Value + sensitvity* brightness.Value;
+        //    }
+        //    else
+        //    {
+        //        brightness = null;
+        //    }
+
+        //    if (args.lightEstimation.averageColorTemperature.HasValue)
+        //    {
+        //        colorTemperature = args.lightEstimation.averageColorTemperature.Value;
+        //        m_Light.colorTemperature = colorTemperature.Value;
+        //    }
+        //    else
+        //    {
+        //        colorTemperature = null;
+        //    }
+
+        //    if (args.lightEstimation.colorCorrection.HasValue)
+        //    {
+        //        colorCorrection = args.lightEstimation.colorCorrection.Value;
+        //        m_Light.color = colorCorrection.Value;
+        //    }
+        //    else
+        //    {
+        //        colorCorrection = null;
+        //    }
+
+        //    if (args.lightEstimation.mainLightDirection.HasValue)
+        //    {
+        //        mainLightDirection = args.lightEstimation.mainLightDirection;
+        //  //      m_Light.transform.rotation = Quaternion.LookRotation(mainLightDirection.Value);
+
+        //    }
+
+
+        //    if (args.lightEstimation.mainLightColor.HasValue)
+        //    {
+        //        mainLightColor = args.lightEstimation.mainLightColor;
+        //        m_Light.color = mainLightColor.Value;
+        //    }
+        //    else
+        //    {
+        //        mainLightColor = null;
+        //    }
+
+        //    if (args.lightEstimation.mainLightIntensityLumens.HasValue)
+        //    {
+        //        mainLightIntensityLumens = args.lightEstimation.mainLightIntensityLumens;
+        //        m_Light.intensity = args.lightEstimation.averageMainLightBrightness.Value  +sensitvity * args.lightEstimation.averageMainLightBrightness.Value; ;
+        //        Debug.Log("sestivity1  " + sensitvity);
+
+        //        Debug.Log("sestivity3  " + args.lightEstimation.averageMainLightBrightness.Value);
+        //        Debug.Log("sestivity2 final intensity " + m_Light.intensity);
+        //    }
+        //    else
+        //    {
+        //        mainLightIntensityLumens = null;
+        //    }
+
+        //    if (args.lightEstimation.ambientSphericalHarmonics.HasValue)
+        //    {
+        //        sphericalHarmonics = args.lightEstimation.ambientSphericalHarmonics;
+        //        RenderSettings.ambientMode = AmbientMode.Skybox;
+        //        RenderSettings.ambientProbe = sphericalHarmonics.Value;
+        //    }
+        //    else
+        //    {
+        //        sphericalHarmonics = null;
+        //    }
+        //}
 
         Light m_Light;
     }
