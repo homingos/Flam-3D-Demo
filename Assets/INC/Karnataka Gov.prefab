@@ -316,7 +316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3736370803516878011
 RectTransform:
   m_ObjectHideFlags: 0
@@ -443,6 +443,7 @@ GameObject:
   - component: {fileID: 3736370803758775342}
   - component: {fileID: 3736370803758775337}
   - component: {fileID: 5640778646229235636}
+  - component: {fileID: 5827097358059627999}
   m_Layer: 0
   m_Name: Parent_Anim
   m_TagString: Untagged
@@ -502,6 +503,18 @@ MonoBehaviour:
   currentGameObject: {fileID: 0}
   experiences:
   - {fileID: 7566886889260835655}
+--- !u!114 &5827097358059627999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736370803758775343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd128822547f49879272970f40aabcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3736370804722755164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,7 +1458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 300}
+  m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &2501270878793712038
